@@ -1,4 +1,4 @@
-package com.example.backfinalpriject.entity;
+package com.example.backfinalpriject.member.entity;
 
 import com.example.backfinalpriject.member.dto.request.MemberSignupRequest;
 import lombok.*;

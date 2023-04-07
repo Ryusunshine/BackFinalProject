@@ -1,4 +1,4 @@
-package com.example.backfinalpriject.entity;
+package com.example.backfinalpriject.config;
 
 import lombok.Getter;
 import lombok.ToString;

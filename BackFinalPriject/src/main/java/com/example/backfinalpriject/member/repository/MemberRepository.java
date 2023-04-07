@@ -1,6 +1,6 @@
 package com.example.backfinalpriject.member.repository;
 
-import com.example.backfinalpriject.entity.Member;
+import com.example.backfinalpriject.member.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

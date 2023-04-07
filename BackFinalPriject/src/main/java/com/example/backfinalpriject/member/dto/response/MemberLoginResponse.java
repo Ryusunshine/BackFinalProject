@@ -1,6 +1,6 @@
 package com.example.backfinalpriject.member.dto.response;
 
-import com.example.backfinalpriject.entity.Member;
+import com.example.backfinalpriject.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

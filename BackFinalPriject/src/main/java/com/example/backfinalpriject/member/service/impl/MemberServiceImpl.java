@@ -1,7 +1,7 @@
 package com.example.backfinalpriject.member.service.impl;
 
 import com.example.backfinalpriject.member.dto.request.MemberSignupRequest;
-import com.example.backfinalpriject.entity.Member;
+import com.example.backfinalpriject.member.entity.Member;
 import com.example.backfinalpriject.member.service.MemberService;
 import com.example.backfinalpriject.member.repository.MemberRepository;
 import com.example.backfinalpriject.member.dto.request.MemberLoginRequest;
