@@ -46,6 +46,7 @@ jobs:
 #디렉토리 생성
     - name: Make Directory
       run: mkdir -p deploy
+      working-directory: ${{env.working-directory}}
 
     - name: Copy appspec.yml to deploy
       run: cp appspec.yml ./deploy
