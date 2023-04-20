@@ -39,6 +39,7 @@ public class Strategy extends AuditingFields {
     @Column(name = "content", columnDefinition = "TEXT")
     private String content;
 
+    @Builder.Default
     @OneToMany(mappedBy = "strategy", cascade = CascadeType.ALL)
     private List<StrategyVideo> strategyVideos = new ArrayList<>();
 
