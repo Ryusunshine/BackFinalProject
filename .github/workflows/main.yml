@@ -49,17 +49,21 @@ jobs:
 
     - name: Copy appspec.yml to deploy
       run: cp appspec.yml ./deploy
+      working-directory: ${{env.working-directory}}
 
     - name: Copy deploy.sh to deploy
       run: cp deploy.sh ./deploy
+      working-directory: ${{env.working-directory}}
 
 # Jar파일 복사
     - name: Copy Jar
       run: cp ./build/libs/*.jar ./deploy
+      working-directory: ${{env.working-directory}}
 
     - name: Make zip file
       run: zip -r ./eduhash.zip ./deploy
       shell: bash
+      working-directory: ${{env.working-directory}}
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
